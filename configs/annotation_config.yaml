@@ -1,0 +1,34 @@
+# Annotation Configuration
+input_dir: "datasets/all_components/crops"
+output_dir: "data/yolo_dataset"
+
+# Component classes
+classes:
+  - name: "brake_caliper"
+    color: [0, 255, 0] # Green
+    description: "Brake caliper component"
+    shortcuts: ["1", "b"]
+
+  - name: "alternator"
+    color: [255, 0, 0] # Blue
+    description: "Alternator/generator"
+    shortcuts: ["2", "a"]
+
+  - name: "battery"
+    color: [0, 0, 255] # Red
+    description: "Car battery"
+    shortcuts: ["3", "t"]
+
+  - name: "oil_filter"
+    color: [255, 255, 0] # Cyan
+    description: "Oil filter"
+    shortcuts: ["4", "o"]
+
+  - name: "air_filter"
+    color: [255, 0, 255] # Magenta
+    description: "Air filter"
+    shortcuts: ["5", "f"]
+
+# Quality control
+min_samples_per_class: 30
+max_samples_per_class: 200

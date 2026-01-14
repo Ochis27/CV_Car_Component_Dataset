@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Generated outputs
+outputs/
+=======
+datasets/
+
+# Keep locally, don't upload
+Component_Images/
+Compoent_Images/
+Component_Images.zip
+outputs 2/
+
+# Ignore all common image formats
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.svg
+
+# Ignore all images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.svg
+>>>>>>> b35c0bd (second commit)
+Compoent_Images.zip
